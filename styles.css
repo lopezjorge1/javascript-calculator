@@ -1,0 +1,79 @@
+html,body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url("math.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+	background-color: #808080;
+	position: relative;
+}
+
+.calculator {
+	width: 26vw;
+	height: 32.5vw;
+	background-color: rgba(255,255,255,.5);
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border: thin solid #000;
+}
+
+div {
+	display: inline-block;
+	width: 6vw;
+	height: 4vw;
+	border-radius: 15%;
+	background-color: #7F7C77;
+	color: #fff;
+	text-align: center;
+	margin-top: .5vw;
+	margin-left: .1vw;
+	padding-top: 1vw;
+	font-size: 2vw;
+	cursor: pointer;
+}
+
+#clear,
+#divide,
+#multiply,
+#subtract,
+#clear {
+	background-color: #24211F;
+}
+
+#equal {
+	background-color: #BD5522;
+}
+
+#input {
+	position: relative;
+	width: 18.5vw;
+	background-color: rgba(255,255,255,0);
+	height: 4vw;
+	border-radius: 0%;
+	vertical-align: bottom;
+	margin-top: 3vw;
+	cursor: initial;
+}
+
+#input span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: #000;
+}
+
+h1 {
+	position: absolute;
+	left: 3vw;
+	font-family: cursive;
+	font-size: 3.5vw;
+	letter-spacing: .25vw;
+}
